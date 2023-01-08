@@ -149,3 +149,61 @@
   width: 50%; 
   padding-bottom: 10px; 
 }
+/* Appointment style */
+.appointment-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: red;
+    padding: 10px;
+    color: wheat;
+    margin: auto;
+    border-radius: 10px;
+    gap: 20px;
+    margin-top:-50px;
+    margin-bottom: 50px;
+}
+.call-icon{
+    width: 50px;
+}
+.phone-call{
+   display: flex; 
+}
+/* Blogs-section style */
+.blogs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blogs-section{
+    width: 100%;
+    height: 70vh;
+}
+.blg-title{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+.blog{
+    color: red;
+}
+.blogs-title{
+    text-align: center;
+    padding: 10px;
+}
+.blg-img{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+.blog-1{
+    border: 2px solid grey;
+    text-align: center;
+    margin: 0 100px;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px grey;
+    
+}
