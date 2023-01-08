@@ -207,3 +207,15 @@
     box-shadow: 5px 5px 10px grey;
     
 }
+/* footer */
+.footer-title{
+   
+    padding: 20px;
+    
+}
+.footer-container{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    background-color: black;
+}
