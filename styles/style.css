@@ -76,7 +76,18 @@
     background-repeat: no-repeat;
     color: #FFFF;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
+}
+.service-left-container{
+    width: 50%;
+    margin-left: 50px;
+}
+.service-right-container{
+    width: 50%;
 }
 .service-btn{
     border: none;
@@ -115,4 +126,26 @@
     list-style: none;
     padding: 5px;
     margin-left: 10px;
+}
+/* Right-side style */
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.service{
+   padding: 40px;
+   background-color: #FFFF;
+   box-shadow: 4px 4px 8px gray;
+   width: 200px;
+   height: 200px; 
+   text-align: center;
+   color: black;
+   border-radius: 10px;
+   margin: 6px;
+}
+.service-logo{
+  width: 50%; 
+  padding-bottom: 10px; 
 }
